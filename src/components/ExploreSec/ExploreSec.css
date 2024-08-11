@@ -1,0 +1,25 @@
+.explore_sec {
+    text-align: center;
+    color: white;
+    font-family: "KoHo", sans-serif;
+    padding: 100px 30px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.explore_sec h2 {
+    font-size: 46px;
+}
+
+.explore_sec p {
+    font-family: "Poppins", sans-serif;
+    color: #D9ECFF;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+
+}

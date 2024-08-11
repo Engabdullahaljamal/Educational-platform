@@ -1,0 +1,16 @@
+.info_box {
+    width: 20%;
+    height: 130px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+
+}
+
+.info_box p {
+    color: #D9ECFF;
+}

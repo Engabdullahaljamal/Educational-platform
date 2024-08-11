@@ -1,0 +1,117 @@
+.questions_container {
+    padding: 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+.questions_container .first_part {
+    width: 385px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 120px;
+
+}
+
+.questions_container .first_part p {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 45px;
+    color: #D9ECFF;
+
+
+}
+
+.questions_container .first_part h3 {
+    font-family: "KoHo", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    color: white;
+
+}
+
+.questions_container .first_part button {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FAB437;
+    color: white;
+    border-radius: 30px;
+
+
+}
+
+.accordion {
+
+    width: 725px;
+    --bs-accordion-bg: #142941;
+    --bs-accordion-color: white !important;
+    --bs-accordion-btn-color: white;
+    --bs-accordion-active-bg: #142941;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-border-color: #E1EFFF80;
+    color: white !important;
+    --bs-accordion-body-padding-x: 0px
+}
+
+
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cstyle%3Esvg%7Bfill:%23ffffff%7D%3C/style%3E%3Cpath d='M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z'/%3E%3C/svg%3E");
+    height: 20px;
+    font-size: 10px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='1em' viewBox='0 0 448 512'%3E%3C!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --%3E%3Cstyle%3Esvg%7Bfill:%23ffffff%7D%3C/style%3E%3Cpath d='M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z'/%3E%3C/svg%3E");
+
+
+}
+
+.accordion-button {
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #D9ECFF;
+
+
+}
+
+.accordion-header {
+    width: 100% !important;
+    outline: none;
+    padding: 25px 0px;
+}
+
+.accordion-body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.accordion:last-child {
+    border-bottom: 1px solid #E1EFFF80;
+}
+
+.accordion-button::after {
+    color: white !important;
+
+}
+
+#accordionFlushExample {
+    background-color: #142941;
+}

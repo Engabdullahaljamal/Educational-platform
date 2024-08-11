@@ -1,0 +1,60 @@
+.client_profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    height: 320px;
+
+
+
+}
+
+.client_profile_con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.client_profile p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.client_profile img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 80px;
+}
+
+.desc {
+    width: 60vw !important;
+    display: none;
+    position: absolute;
+    width: max-content;
+    text-align: center;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.desc_con p:first-child {
+    width: 100%;
+}
+
+.desc_con {
+    position: relative;
+    height: 60px;
+
+
+
+}

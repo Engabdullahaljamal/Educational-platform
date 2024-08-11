@@ -1,0 +1,52 @@
+.popular_courses {
+    color: white;
+    font-family: "KoHo", sans-serif;
+    padding: 100px 0px;
+    gap: 10px;
+
+}
+
+.popular_courses h2 {
+    font-size: 42px;
+    padding-left: 50px;
+    width: max-content !important;
+}
+
+.popular_courses p {
+    font-family: "Poppins", sans-serif;
+    color: #D9ECFF;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+.popular_courses .explore_button {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 56px;
+}
+
+
+
+.popular_courses .explore_button button {
+    width: 200px;
+    height: 60px;
+    border-radius: 38px;
+    border: 2px solid #FFFFFF;
+    background-color: #142941;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.popular_courses .explore_button button:hover {
+    background-color: #21B573 !important;
+    border: 1px solid #21B573;
+    transition: 0.5s;
+}

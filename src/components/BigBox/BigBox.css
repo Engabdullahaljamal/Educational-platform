@@ -1,0 +1,56 @@
+.big_box {
+    width: 40%;
+    height: 130px;
+    background-color: #354C66;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.big_box div {
+    display: flex;
+    align-items: center;
+}
+
+.big_box h3 {
+    color: #D9ECFF;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 22px;
+
+}
+
+.big_box svg {
+    color: #21B573;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+.big_box div:nth-child(2) {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.big_box div:nth-child(2) p:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.big_box div:nth-child(2) p:nth-child(2) svg {
+    color: #FBB03B;
+    font-size: 22px;
+    position: absolute;
+    left: 30px;
+    top: 0px;
+}

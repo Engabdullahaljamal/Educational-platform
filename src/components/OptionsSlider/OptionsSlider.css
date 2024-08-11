@@ -1,0 +1,30 @@
+.option_slider_con {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.option_slider_con .slider-container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.option_slider_con .slider-container .slick-slider {
+    width: 80vw !important;
+    margin: 0 auto;
+}
+
+.option_slider_con .slider-container .slick-list {
+    width: 80vw !important;
+    margin: 0;
+}
+
+.option_slider_con .slider-container .slick-arrow.slick-prev {
+    width: 30px !important;
+    height: 30px;
+
+}
+
+.option_slider_con .slider-container .slick-arrow.slick-next {
+    width: 30px !important;
+    height: 30px;
+}

@@ -1,0 +1,131 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    width: 100vw;
+    background-color: #142941;
+    border-bottom: 1px solid #D9ECFF;
+    z-index: 10;
+}
+
+.navbar {
+    display: none;
+}
+
+.nav h3,
+.container-fluid h3 {
+    font-size: 30px;
+}
+
+.nav h3 span,
+.container-fluid h3 span {
+    color: rgb(33, 181, 115);
+
+}
+
+.nav ul {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    width: max-content;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-size: 14px;
+    padding: 0 !important;
+    margin: 0 !important;
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar .nav-item a {
+    cursor: pointer;
+}
+
+.nav ul li a:hover,
+.navbar .nav-item a:hover {
+    color: #21B573 !important;
+}
+
+
+
+.nav button,
+.navbar .but button {
+    width: 128px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background-color: #142941;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    padding-bottom: 2px;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav button:hover,
+.navbar .but button:hover {
+    background-color: #21B573 !important;
+    border: 1px solid #21B573;
+    transition: 0.5s;
+}
+
+.navbar .navbar-toggler {
+    color: white !important;
+    background-color: #142941;
+    height: 27px;
+    border: none;
+    outline: none;
+}
+
+.navbar .navbar-toggler:focus {
+    outline: none;
+    border: none !important;
+}
+
+.navbar .navbar-toggler:focus,
+.navbar .navbar-toggler:active,
+.navbar .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+
+    display: none;
+}
+
+.navbar .navbar-toggler {
+
+    /* border: 3px solid #21B573; */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.navbar .nav-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.navbar .nav-item.but button {
+    margin-bottom: 15px !important;
+}
+
+.navbar ul {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}

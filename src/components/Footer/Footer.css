@@ -1,0 +1,148 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    color: white;
+    padding: 50px;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.footer div {
+    width: 168px;
+    height: 236px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.footer div:first-child {
+    width: 361px;
+    height: max-content;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+.footer h3 {
+    font-size: 25px;
+    font-family: "KoHo", sans-serif;
+}
+
+.footer div:first-child h3 {
+    font-size: 30px !important;
+    font-family: "KoHo", sans-serif;
+    margin-top: 15px;
+}
+
+
+.footer div:first-child h3 span {
+    color: rgb(33, 181, 115);
+
+}
+
+.footer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #D9ECFF;
+}
+
+
+
+.footer div:first-child :nth-child(3) {
+    font-weight: 500;
+}
+
+.footer div:first-child :nth-child(3) span {
+    color: #FAB437;
+}
+
+
+.footer ul {
+    list-style: none;
+    width: 168px;
+    padding: 0px;
+    margin-top: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #D9ECFF;
+}
+
+.footer ul li a {
+    cursor: pointer;
+    width: 100%;
+    text-decoration: none;
+    color: #D9ECFF;
+
+}
+
+.footer :nth-child(2) ul li :hover {
+    cursor: pointer;
+    width: 100%;
+    color: #21B573;
+}
+
+.footer ul li {
+    margin-top: 4.5px;
+}
+
+.footer :nth-child(3) ul li {
+    margin-top: 5px !important;
+}
+
+.footer div input {
+    border: none;
+    background-color: #142941;
+    border-bottom: 1px solid #E1EFFF80;
+    padding: 20px 0px;
+    margin-top: 25px;
+    color: #D9ECFF;
+    outline: none;
+    display: block;
+
+}
+
+.footer div input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    color: #D9ECFF;
+}
+
+.footer div button {
+    border: none;
+    margin-top: 30px;
+    background-color: #21B573;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+
+}
+
+.footer div:first-child p {
+    width: 100%;
+}
+
+.footer input {
+    background-color: rgb(20, 41, 65);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background-color: none !important;
+}
